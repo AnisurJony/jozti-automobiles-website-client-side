@@ -144,7 +144,7 @@ const useFirebase = () => {
 
     useEffect(() => {
 
-        const url = `http://localhost:5000/users/${user?.email}`;
+        const url = `https://desolate-gorge-00712.herokuapp.com/users/${user?.email}`;
 
         fetch(url)
 
@@ -182,7 +182,7 @@ const useFirebase = () => {
 
 
 
-        fetch('http://localhost:5000/users', {
+        fetch('https://desolate-gorge-00712.herokuapp.com/users', {
 
             method: method,
 

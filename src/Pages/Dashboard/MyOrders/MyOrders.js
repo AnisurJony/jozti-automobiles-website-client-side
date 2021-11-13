@@ -14,7 +14,7 @@ const MyOrders = () => {
     const [myOrders, setMyOrders] = useState([]);
 
     useEffect(() => {
-        const url = `http://localhost:5000/orders?email=${user.email}`;
+        const url = `https://desolate-gorge-00712.herokuapp.com/orders?email=${user.email}`;
         fetch(url, {
 
             headers: {
@@ -34,7 +34,7 @@ const MyOrders = () => {
 
         if (proceed) {
 
-            const url = `http://localhost:5000/orders/${id}`;
+            const url = `https://desolate-gorge-00712.herokuapp.com/orders/${id}`;
 
             fetch(url, {
 

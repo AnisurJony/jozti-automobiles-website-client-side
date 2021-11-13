@@ -45,7 +45,7 @@ const PurchaseNow = () => {
 
     useEffect(() => {
 
-        fetch('http://localhost:5000/products')
+        fetch('https://desolate-gorge-00712.herokuapp.com/products')
             .then(res => res.json())
             .then(data => setAllProducts(data))
 
@@ -85,7 +85,7 @@ const PurchaseNow = () => {
         }
 
 
-        fetch('http://localhost:5000/orders', {
+        fetch('https://desolate-gorge-00712.herokuapp.com/orders', {
 
             method: 'POST',
             headers: {
