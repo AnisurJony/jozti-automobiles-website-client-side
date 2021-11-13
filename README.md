@@ -5,18 +5,7 @@ We are car reatiler based company which has digital existance. We are offering w
 
 ## live client site link:
 
-
-
-## Client site github link:
-
-
-
-
-
-## server side github link:
-
-
-
+https://jozti-automobiles.web.app/
 
 ## We are using here the following technologies to build this web application: 
 
